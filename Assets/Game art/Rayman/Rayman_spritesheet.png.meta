@@ -1,0 +1,535 @@
+fileFormatVersion: 2
+guid: 94879cbef1db9164cb2da4899f575587
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2139018899769328730
+    second: Rayman_spritesheet_0
+  - first:
+      213: 4258239910069891660
+    second: Rayman_spritesheet_1
+  - first:
+      213: 7309721741645903070
+    second: Rayman_spritesheet_2
+  - first:
+      213: -3939854877494049505
+    second: Rayman_spritesheet_3
+  - first:
+      213: -8299166129988628099
+    second: Rayman_spritesheet_4
+  - first:
+      213: 1638742021936979407
+    second: Rayman_spritesheet_5
+  - first:
+      213: -7765118188016366239
+    second: Rayman_spritesheet_6
+  - first:
+      213: -205111120378047904
+    second: Rayman_spritesheet_7
+  - first:
+      213: -6337219665512279844
+    second: Rayman_spritesheet_8
+  - first:
+      213: -3518603770923996433
+    second: Rayman_spritesheet_9
+  - first:
+      213: -5401752320149507072
+    second: Rayman_spritesheet_10
+  - first:
+      213: -8596724461610145891
+    second: Rayman_spritesheet_11
+  - first:
+      213: 3871769133812259711
+    second: Rayman_spritesheet_12
+  - first:
+      213: 8649649916724386461
+    second: Rayman_spritesheet_13
+  - first:
+      213: 8817790918299409966
+    second: Rayman_spritesheet_14
+  - first:
+      213: 1714329847939498920
+    second: Rayman_spritesheet_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Rayman_spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 872
+        width: 93
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5409983b525fad10800000000000000
+      internalID: 2139018899769328730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rayman_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 876
+        width: 213
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c427b1813ae481b30800000000000000
+      internalID: 4258239910069891660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rayman_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 907
+        width: 69
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed4f0c90239517560800000000000000
+      internalID: 7309721741645903070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rayman_spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 703
+        width: 139
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f158068fcd2d259c0800000000000000
+      internalID: -3939854877494049505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rayman_spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 719
+        width: 135
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d71131a206073dc80800000000000000
+      internalID: -8299166129988628099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rayman_spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 619
+        width: 75
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcd1f00cf2bfdb610800000000000000
+      internalID: 1638742021936979407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rayman_spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 600
+        width: 151
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16d0c5c3622cc3490800000000000000
+      internalID: -7765118188016366239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rayman_spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 592
+        width: 145
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0625262d58c472df0800000000000000
+      internalID: -205111120378047904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rayman_spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 397
+        width: 141
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd0558d4a4cad08a0800000000000000
+      internalID: -6337219665512279844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rayman_spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 452
+        width: 35
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: feaa9b043886b2fc0800000000000000
+      internalID: -3518603770923996433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rayman_spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 216
+        width: 98
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 004b8d072ee1905b0800000000000000
+      internalID: -5401752320149507072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rayman_spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 263
+        width: 76
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d97e0d946ac42b880800000000000000
+      internalID: -8596724461610145891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rayman_spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 236
+        width: 138
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7b933183894bb530800000000000000
+      internalID: 3871769133812259711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rayman_spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 248
+        width: 50
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9a18dd75cab90870800000000000000
+      internalID: 8649649916724386461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rayman_spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 72
+        width: 150
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2ed6ec1f161f5a70800000000000000
+      internalID: 8817790918299409966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rayman_spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 87
+        width: 197
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a3884ee9e58ac710800000000000000
+      internalID: 1714329847939498920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Rayman_spritesheet_0: 2139018899769328730
+      Rayman_spritesheet_1: 4258239910069891660
+      Rayman_spritesheet_10: -5401752320149507072
+      Rayman_spritesheet_11: -8596724461610145891
+      Rayman_spritesheet_12: 3871769133812259711
+      Rayman_spritesheet_13: 8649649916724386461
+      Rayman_spritesheet_14: 8817790918299409966
+      Rayman_spritesheet_15: 1714329847939498920
+      Rayman_spritesheet_2: 7309721741645903070
+      Rayman_spritesheet_3: -3939854877494049505
+      Rayman_spritesheet_4: -8299166129988628099
+      Rayman_spritesheet_5: 1638742021936979407
+      Rayman_spritesheet_6: -7765118188016366239
+      Rayman_spritesheet_7: -205111120378047904
+      Rayman_spritesheet_8: -6337219665512279844
+      Rayman_spritesheet_9: -3518603770923996433
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
