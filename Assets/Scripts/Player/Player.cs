@@ -1,12 +1,16 @@
+using Unity.Mathematics;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Movement : MonoBehaviour
 {
-    public float Acceleration = 0.5f;
-    public float Friction = 0.95f;
+    public float Acceleration = 0.2f;
+    public float MoveSpeed = 3;
     public float JumpHeight = 5;
     public Transform GroundCheck;
+    public Camera camera;
     private bool isGrounded = false;
+    private float MoveInput;
     private Rigidbody2D rb;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -17,20 +21,21 @@ public class Movement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        isGrounded = Physics2D.OverlapCircle(GroundCheck.position, 0.25f, 3);
+        MoveInput = Input.GetAxis("Horizontal");
+        isGrounded = Physics2D.OverlapCircle(GroundCheck.position, 0.3f, 3);
         if (isGrounded)
         {
-            rb.linearVelocity += new Vector2(Input.GetAxis("Horizontal")*(Acceleration*Time.deltaTime*60), 0);
-            rb.linearVelocity = new Vector2(rb.linearVelocity.x * Mathf.Pow(Friction, Time.deltaTime * 60f), rb.linearVelocity.y);
+            rb.linearVelocity = Vector2.Lerp(rb.linearVelocity, new Vector2(MoveInput*MoveSpeed, rb.linearVelocity.y), Acceleration*Time.deltaTime*60);
             if (Input.GetKeyDown(KeyCode.Space))
             {
-                rb.linearVelocity += new Vector2(0,JumpHeight);
+                rb.linearVelocity = new Vector2(rb.linearVelocity.x*0.75f,JumpHeight);
             }
         }
         else
         {
-
+            rb.linearVelocity = Vector2.Lerp(rb.linearVelocity, new Vector2(MoveInput*MoveSpeed, rb.linearVelocity.y), (Acceleration*0.5f*Time.deltaTime*60)*math.abs(MoveInput));
         }
+        camera.transform.position = Vector3.Lerp(camera.transform.position, transform.position + new Vector3(0,0,-10), 0.1f*Time.deltaTime*60);
         
     }
 }
